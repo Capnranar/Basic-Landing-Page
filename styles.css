@@ -1,7 +1,22 @@
-*{
+
+
+.links{
+    display:flex;
+    justify-content: space-between;
+    margin:30px;
+    font-size: 20px;
+    flex-direction: row-reverse;
+    
+}
+
+.Link{
+    text-decoration: none;
+}
+
+.html, body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 .img {
     max-width: 75px;
