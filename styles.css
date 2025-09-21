@@ -37,11 +37,19 @@
     margin: 0; 
 }
 
+
+.words{
+    margin-right: 0px;
+}
+
+
+
+
 .Grouping{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: row;
-    width: 600px;
+    width: 800px; 
     margin-left: 50px;
     margin-top: 25px;
 }
@@ -55,6 +63,7 @@
 
 .Heading{
     margin-bottom: 0px;
+
 }
 
 .Subheading{
@@ -63,6 +72,15 @@
 
 .image{
     display: flex;
+    border-radius: 20px;
+
     
 
+}
+.scale-container {
+    transform-origin: top left; /* Scale from top left corner */
+    transform: scale(2); /* Adjust this value (e.g., 1.5 for 150% size, 2 for 200%) */
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
